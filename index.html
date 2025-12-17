@@ -1,0 +1,91 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PetStyle | Loja para Pets</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">  <!-- Header -->  <header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-purple-600">PetStyle</h1>
+      <nav class="space-x-4 hidden md:block">
+        <a href="#" class="hover:text-purple-600">Home</a>
+        <a href="#produtos" class="hover:text-purple-600">Produtos</a>
+        <a href="#depoimentos" class="hover:text-purple-600">Depoimentos</a>
+        <a href="#contato" class="hover:text-purple-600">Contato</a>
+      </nav>
+    </div>
+  </header>  <!-- Hero -->  <section class="bg-purple-600 text-white">
+    <div class="max-w-7xl mx-auto px-4 py-16 grid grid-cols-1 md:grid-cols-2 items-center gap-8">
+      <div>
+        <h2 class="text-4xl font-bold mb-4">Estilo e cuidado para o seu pet</h2>
+        <p class="mb-6">Produtos modernos, confortáveis e cheios de personalidade para cães e gatos.</p>
+        <a href="#produtos" class="bg-white text-purple-600 px-6 py-3 rounded-lg font-semibold">Ver produtos</a>
+      </div>
+      <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a" alt="Pet estiloso" class="rounded-lg shadow">
+    </div>
+  </section>  <!-- Produtos -->  <section id="produtos" class="max-w-7xl mx-auto px-4 py-16">
+    <h3 class="text-3xl font-bold text-center mb-10">Nossos Produtos</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="bg-white p-4 rounded-lg shadow">
+        <img src="https://images.unsplash.com/photo-1558944351-cb09f1c8f6b1" class="rounded mb-4" alt="Caminha pet">
+        <h4 class="font-semibold">Caminha Confort</h4>
+        <p class="text-sm text-gray-600">Conforto máximo para seu pet descansar.</p>
+        <span class="font-bold text-purple-600">R$ 149,90</span>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow">
+        <img src="https://images.unsplash.com/photo-1601758123927-1968c5fdb3f8" class="rounded mb-4" alt="Brinquedo pet">
+        <h4 class="font-semibold">Brinquedo Interativo</h4>
+        <p class="text-sm text-gray-600">Diversão garantida para seu pet.</p>
+        <span class="font-bold text-purple-600">R$ 39,90</span>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow">
+        <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b" class="rounded mb-4" alt="Coleira">
+        <h4 class="font-semibold">Coleira Premium</h4>
+        <p class="text-sm text-gray-600">Estilo e segurança no passeio.</p>
+        <span class="font-bold text-purple-600">R$ 59,90</span>
+      </div>
+      <div class="bg-white p-4 rounded-lg shadow">
+        <img src="https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb" class="rounded mb-4" alt="Roupinha pet">
+        <h4 class="font-semibold">Roupinha Fashion</h4>
+        <p class="text-sm text-gray-600">Seu pet na moda o ano todo.</p>
+        <span class="font-bold text-purple-600">R$ 79,90</span>
+      </div>
+    </div>
+  </section>  <!-- Depoimentos -->  <section id="depoimentos" class="bg-gray-100 py-16">
+    <div class="max-w-7xl mx-auto px-4">
+      <h3 class="text-3xl font-bold text-center mb-10">O que dizem nossos clientes</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <p>“A caminha é maravilhosa! Meu cachorro amou.”</p>
+          <span class="block mt-4 font-semibold">— Ana Paula</span>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <p>“Produtos lindos e de ótima qualidade.”</p>
+          <span class="block mt-4 font-semibold">— Marcos Silva</span>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <p>“Entrega rápida e atendimento excelente.”</p>
+          <span class="block mt-4 font-semibold">— Juliana Rocha</span>
+        </div>
+      </div>
+    </div>
+  </section>  <!-- Contato -->  <section id="contato" class="max-w-7xl mx-auto px-4 py-16">
+    <h3 class="text-3xl font-bold text-center mb-10">Contato</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div>
+        <p><strong>Email:</strong> contato@petstyle.com</p>
+        <p><strong>Telefone:</strong> (51) 99999-9999</p>
+      </div>
+      <form class="bg-white p-6 rounded-lg shadow space-y-4">
+        <input type="text" placeholder="Seu nome" class="w-full border p-2 rounded">
+        <input type="email" placeholder="Seu email" class="w-full border p-2 rounded">
+        <textarea placeholder="Mensagem" class="w-full border p-2 rounded"></textarea>
+        <button class="bg-purple-600 text-white px-4 py-2 rounded">Enviar</button>
+      </form>
+    </div>
+  </section>  <!-- Footer -->  <footer class="bg-purple-600 text-white text-center py-4">
+    <p>&copy; 2025 PetStyle - Todos os direitos reservados</p>
+  </footer></body>
+</html>
